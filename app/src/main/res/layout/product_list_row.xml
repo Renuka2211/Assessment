@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:elevation="4dp"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    card_view:cardCornerRadius="4dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.09"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/tvProductName"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16dp"
+            android:text="dhskjx"
+            android:gravity="left"
+            android:textColor="@color/colorAccent"/>
+        <TextView
+            android:id="@+id/tvDateAdded"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16dp"
+            android:text="24-09-2019"
+            android:gravity="left"
+            android:textColor="@color/dark_blue"/>
+        <TextView
+            android:id="@+id/tvTaxName"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16dp"
+            android:text="dhskjx"
+            android:gravity="left"
+            android:textColor="@color/dark_blue"/>
+        <TextView
+            android:id="@+id/tvTaxVal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16dp"
+            android:text="24-09-2019"
+            android:gravity="left"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/dark_blue"
+          />
+
+        <TextView
+            android:id="@+id/tvViewCount"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16dp"
+            android:text="View Count"
+            android:gravity="left"
+            android:textColor="@color/dark_blue"
+            />
+
+        <RatingBar android:id="@+id/rbVCount"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/tvOrdredCount"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16dp"
+            android:text="Ordered Count"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/dark_blue"
+            android:gravity="left"/>
+
+        <RatingBar android:id="@+id/rbOCount"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tvSharedCount"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16dp"
+            android:text="Shared Count"
+            android:textColor="@color/dark_blue"
+            android:gravity="left"/>
+
+        <RatingBar android:id="@+id/rbSCount"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</android.support.v7.widget.CardView>

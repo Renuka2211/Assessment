@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.09"
+        android:weightSum="1"
+        android:background="@color/darkest_purple">
+        <TextView
+            android:id="@+id/tvSort"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:textSize="16dp"
+            android:text="@string/tv_sort"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            />
+        <ImageView
+            android:id="@+id/ivSort"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="20dp"
+            android:src="@drawable/sort"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/tvFilter"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:textSize="16dp"
+            android:text="@string/tv_filter"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            android:textColor="@color/white"
+            />
+        <ImageView
+            android:id="@+id/ivFilter"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvProductList"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:numColumns="2"
+        android:layout_weight="0.99"
+        />
+</LinearLayout>

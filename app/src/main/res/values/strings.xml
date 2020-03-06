@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ecommerce</string>
+    <string name="tv_sort">Sort</string>
+
+    <string name="tv_filter">Filter</string>
+
+</resources>

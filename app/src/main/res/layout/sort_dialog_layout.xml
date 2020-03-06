@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_background"
+>
+
+    <TextView
+        android:id="@+id/tvSortByLabel"
+        android:layout_height="wrap_content"
+        android:text="Sort By"
+        android:layout_width="match_parent"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/darkest_blue"
+        />
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tvSortByLabel"
+        android:background="#000000"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        />
+
+    <TextView
+        android:id="@+id/tvSortByName"
+        android:layout_height="wrap_content"
+        android:text="Sort By Name"
+        android:layout_width="match_parent"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:layout_below="@+id/tvSortByLabel"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/dark_blue"
+        />
+
+    <TextView
+        android:id="@+id/tvSortByPrice"
+        android:layout_height="wrap_content"
+        android:text="Sort By Price"
+        android:layout_width="match_parent"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:layout_below="@+id/tvSortByName"
+        android:textColor="@color/dark_blue"
+        />
+
+
+
+</RelativeLayout>
